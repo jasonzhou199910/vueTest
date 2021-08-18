@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0dede305-03d6-479c-873d-7e5eea1a4aaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/bean/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/bean/StoreStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/config/admin/AdminVueConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/config/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/RunErrandsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/RunOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/OrderAuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RechargeRecordDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RunErrandsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RunOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/StoreDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/OrderAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/RechargeRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/RunErrands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/RunOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/admin" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/admin/VueFilterInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/OrderAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RechargeRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RunErrandsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RunOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/common" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/common/foot.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/common/head-link.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/common/head.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/index" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home/index/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/bean/CodeMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/bean/CodeMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/bean/PageBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/bean/PageBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/SystemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/SystemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/common/PhotoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/common/PhotoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/common/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/common/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/MenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/MenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/OperaterLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/OperaterLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/entity/admin/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/MenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/util/MenuUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/util/MenuUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/util/SessionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/util/SessionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yuanlrc/base/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yuanlrc/base/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/CodeMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/CodeMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/FileBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/FileBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/PageBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/PageBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/bean/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/config/SiteConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/config/SiteConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/constant/RuntimeConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/constant/RuntimeConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/constant/SessionConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/constant/SessionConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/DatabaseBakController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/DatabaseBakController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/MenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/SystemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/SystemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/admin/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/common/CpachaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/common/CpachaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/common/PhotoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/common/PhotoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/common/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/controller/common/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/DatabaseBakDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/DatabaseBakDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/MenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/MenuDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/OperaterLogDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/OperaterLogDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/dao/admin/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/BaseEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/DatabaseBak.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/DatabaseBak.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/OperaterLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/OperaterLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/entity/admin/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/listener/SessionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/listener/SessionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/DatabaseBakService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/DatabaseBakService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/MenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/OperaterLogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/OperaterLogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/service/admin/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/BigDecimalUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/BigDecimalUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/CpachaUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/CpachaUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/DESUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/DESUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/EmptyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/EmptyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/ExportExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/ExportExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/HttpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/MenuUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/MenuUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/SendEmailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/SendEmailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/SessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/SessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/ValidateEntityUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/ValidateEntityUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/ZipUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yuanlrc/base/util/ZipUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/common/footer.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/common/footer.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/user/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/admin/user/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yuanlrc/base/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yuanlrc/base/AppTest.class" afterDir="false" />
+    </list>
+    <list id="c3efb43a-0eba-48f2-ab21-249c48ef1acb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/config/home/HomeWebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/home/HomeIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/admin/AdminAuthorityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/admin/AdminLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/home/HomeGlobalInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/home/HomeLoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/config/admin/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/config/admin/AdminWebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/constant/RuntimeConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/constant/RuntimeConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/constant/SessionConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/constant/SessionConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/DatabaseBakController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/DatabaseBakController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/AuthorityInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/interceptor/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/listener/SessionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/listener/SessionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/common/footer.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/common/footer.ftl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>vue_index</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RoleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/SystemController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\Environment\maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\maven-repo" />
+        <option name="mavenHome" value="G:\Environment\maven\apache-maven-3.8.1-bin\apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="G:\Environment\maven\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="55" />
+    <option name="y" value="377" />
+    <option name="width" value="1595" />
+    <option name="height" value="903" />
+  </component>
+  <component name="ProjectId" id="1wWZ3uFqv29LhzkGCSF7kpSkB3P" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuanlrc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuanlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuanlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yuanlrc" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-base" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1622097352612" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-base" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yuanlrc.base.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\17474\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dede305-03d6-479c-873d-7e5eea1a4aaa" name="Default Changelist" comment="" />
+      <created>1622044360707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622044360707</updated>
+      <workItem from="1622044364506" duration="675000" />
+      <workItem from="1622086197330" duration="2654000" />
+      <workItem from="1628576110382" duration="251000" />
+      <workItem from="1628576377577" duration="160000" />
+      <workItem from="1628576549780" duration="266000" />
+      <workItem from="1628577179732" duration="24000" />
+      <workItem from="1628577227357" duration="460000" />
+      <workItem from="1628577723916" duration="462000" />
+      <workItem from="1628578603972" duration="1095000" />
+      <workItem from="1628704168254" duration="47000" />
+      <workItem from="1628745601063" duration="934000" />
+      <workItem from="1628775304350" duration="1102000" />
+      <workItem from="1628820620025" duration="702000" />
+      <workItem from="1629216950661" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3329000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3167028" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.4186551" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="BPMNPalette" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="67" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuanlrc/base/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="98" column="23" lean-forward="true" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+          <folding>
+            <element signature="e#2240#2241#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.4.RELEASE/spring-web-5.2.4.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="71" column="66" lean-forward="true" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuanlrc/base/dao/admin/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuanlrc/base/service/admin/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="81" column="40" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="40" />
+          <folding>
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1962#1963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yuanlrc/base/controller/admin/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

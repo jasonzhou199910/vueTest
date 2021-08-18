@@ -1,0 +1,21 @@
+{
+  "name":"金库",
+  "url":"https://yuanlrc.com",
+  "page":1,
+  "isNonProfit": true,
+  "address":{
+    "street":"东方明珠",
+    "city":"上海",
+    "country":"中国"
+  },
+  "links":[
+    {
+      "name":"猿来入此",
+      "url":"https://www.yuanlrc.com"
+    },
+    {
+      "name":"百度",
+      "url":"https://www.baidu.com"
+    }
+  ]
+}
